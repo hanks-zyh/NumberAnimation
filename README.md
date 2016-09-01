@@ -1,11 +1,16 @@
 # NumberAnimation
 number view with 'add' animation 
 
-
 ![](https://github.com/hanks-zyh/NumberAnimation/blob/master/demo.gif)
 
 
+## Download
+```groovy
+compile 'xyz.hanks:library:1.0.1'
+```
+
 ## How to use
+
 ```xml
 <xyz.hanks.library.NumberView
     android:layout_width="wrap_content"
