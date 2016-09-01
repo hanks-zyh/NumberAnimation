@@ -61,9 +61,10 @@ public class NumberView extends View {
         mTextSize = a.getDimension(
                 R.styleable.NumberView_textSize,
                 mTextSize);
-        mNumberString = a.getString(
-                R.styleable.NumberView_number);
-
+        if (a.hasValue(R.styleable.NumberView_number)) {
+            mNumberString = a.getString(
+                    R.styleable.NumberView_number);
+        }
         a.recycle();
 
         // Set up a default TextPaint object
