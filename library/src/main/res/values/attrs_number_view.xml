@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="NumberView">
+        <attr name="numberColor" format="color|reference"/>
+        <attr name="number" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="charSpace" format="dimension"/>
+    </declare-styleable>
+</resources>

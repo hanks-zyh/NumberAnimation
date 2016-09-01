@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="xyz.hanks.numberanimation.MainActivity">
+
+
+    <xyz.hanks.library.NumberView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="anim"
+        app:number="4962378"
+        app:numberColor="#ba1fd2"
+        app:textSize="40sp"/>
+
+    <xyz.hanks.library.NumberView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="anim"
+        app:number="953412"
+        app:numberColor="#234"
+        app:charSpace="5dp"
+        app:textSize="32sp"/>
+
+    <xyz.hanks.library.NumberView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="anim"
+        app:number="67253423"
+        app:numberColor="#0e26b1"
+        app:textSize="20sp"/>
+
+
+</LinearLayout>
